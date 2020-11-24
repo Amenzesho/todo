@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  background: #4B443C;
+};
+
+body {
+  margin: 0;
+  
+}
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.container{
+  display:flex;
+  
+  
+  
+}
+
+
+.form{
+  background-color:#B9B7BD;
+  margin: 0 auto;
+  padding: 10px;
+  width: 500px;
+  height: 600px;
+  /* position: absolute; */
+  
+  
+}
+
+#form{
+  text-align: center;
+}
+
+.headtitle{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+.headtext{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.button1{
+/*   text-align: center; */
+  font-family: sans-serif;
+  font-weight: 300;
+  border-radius: 4px;
+  
+}
+
+.button:hover{
+  
+  transition: transform 3s ease-out;
+}

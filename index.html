@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>To-do</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <h1 class="headtitle">Don't forget to..</h1>
+    </div>
+    <div>
+      <p class="headtext">Use this list to track your personal tasks</p>
+    </div>
+    <div>
+      <div class="form">
+        <label for="task-name">Task name:</label><br>
+        <div class="container">
+         <input id="task-name" type="text" placeholder="Buy groceries...." class="input"></input>
+   <br><br>
+      
+        </div>
+      <label for="description">Task description:</label><br>
+        <div class="container">
+          <input id="description" type="text" placeholder="Restock pantry ...."></input>
+           <br><br>
+        </div>
+    <label for="start">Start date:</label><br>
+  
+  <input id="date-now" type="date"  
+         value="2020-07-22"
+         min="2020-01-01" max="2020-12-31"><br><br>
+
+   <div id= "urgency">
+    <input type="radio" name="rate" >Urgent</input>
+    <input type="radio"  name="rate" >Not Urgent</input>
+    <br><br>
+
+   </div>      
+  
+  
+  <label  >Select a category:</label><br>
+  <input type="checkbox"> category1</input><br>
+  <input type="checkbox"> category2</input><br>
+  <input type="checkbox"> category3</input><br>
+  <input type="checkbox"> category4</input><br><br>
+  <!-- <label>Order Number:</label><br>
+  <input type="text"></input><br> -->
+
+  
+  <button id="button" class="button1" onClick= "displayItems()" > Submit</button>
+
+  
+  
+</div>
+    </div>
+    
+    <div id="table"></div>
+<script src="script.js"></script>
+  </body>
+</html>
